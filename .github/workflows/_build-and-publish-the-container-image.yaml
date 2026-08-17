@@ -15,7 +15,7 @@ on:
         required: true
         type: string
       strategy-matrix-architectures-json:
-        description: 'The image build architecture and github runner JSON string, such as: [{"arch":"linux/amd64","runner":"ubuntu-24.04"}]'
+        description: 'The image build architecture and github runner JSON string, such as: [{"arch":"linux/amd64","runner":"ubuntu-26.04"}]'
         required: true
         type: string
       strategy-matrix-versions-json:
