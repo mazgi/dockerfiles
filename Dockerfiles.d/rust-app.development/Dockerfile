@@ -6,7 +6,7 @@ LABEL org.opencontainers.image.source="https://github.com/mazgi/container-images
 # Set in non-interactive mode.
 ARG DEBIAN_FRONTEND=noninteractive
 # https://www.rust-lang.org/tools/install
-ARG RUST_VERSION=1.85.0
+ARG RUST_VERSION=1.98.0
 # https://docs.docker.com/engine/reference/builder/#automatic-platform-args-in-the-global-scope
 ARG TARGETARCH
 ARG TARGETPLATFORM
